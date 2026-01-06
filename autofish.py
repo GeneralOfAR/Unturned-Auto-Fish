@@ -21,6 +21,7 @@ HOLD_DURATION = 1.9
 INITIAL_DELAY = 15     # Ignore bobber splash
 LISTEN_TIMEOUT = 30    # Max listen time before recast
 
+print("Starting in 5 sec, pull your fishing rod out and click on unturned ")
 time.sleep(5)  # Time to prepare in-game
 
 def cast_line():
